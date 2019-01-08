@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="649.0" prefWidth="696.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="448.0" prefWidth="696.0">
+         <children>
+            <VBox layoutX="39.0" layoutY="171.0" prefHeight="269.0" prefWidth="163.0">
+               <children>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="EUR / PLN">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#1fff3f" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="USD / PLN">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#ff2121" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="CHF / PLN">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#ff2121" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="GBP / PLN">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#ff2121" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+               </children>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </VBox>
+            <VBox layoutX="269.0" layoutY="171.0" prefHeight="269.0" prefWidth="163.0">
+               <children>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="EUR / USD">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#ff2121" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="EUR / GBP">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#1fff3f" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="EUR / CHF">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#ff2121" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+               </children>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </VBox>
+            <VBox layoutX="474.0" layoutY="171.0" prefHeight="269.0" prefWidth="163.0">
+               <children>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="GBP / USD">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#1fff3f" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="USD / CHF">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#ff2121" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="93.0" prefWidth="168.0">
+                     <children>
+                        <Label alignment="TOP_LEFT" prefHeight="52.0" prefWidth="108.0" text="GBP / CHF">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Circle fill="#1fff3f" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+               </children>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </VBox>
+            <ImageView fitHeight="523.0" fitWidth="696.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../PracaInzynierska/Walutomat3%20bezPy/graphics/upper.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="24.0" layoutY="14.0" prefHeight="66.0" prefWidth="242.0" text="Walutomat Observer">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="127.0" layoutY="154.0" startX="-100.0" />
+            <Label layoutX="46.0" layoutY="121.0" prefHeight="32.0" prefWidth="161.0" text="Pary złotówkowe" />
+            <Line endX="100.0" layoutX="360.0" layoutY="153.0" startX="-100.0" />
+            <Label layoutX="385.0" layoutY="120.0" prefHeight="32.0" prefWidth="161.0" text="Inne pary walutowe" />
+            <Line endX="100.0" layoutX="561.0" layoutY="153.0" startX="-100.0" />
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </AnchorPane>
+      <ScrollPane prefHeight="200.0" prefWidth="200.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ListView prefHeight="200.0" prefWidth="681.0" />
+                  <Button layoutX="367.0" layoutY="31.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="144.0" text="Szczegóły zleceń">
+                     <effect>
+                        <InnerShadow />
+                     </effect></Button>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</VBox>
